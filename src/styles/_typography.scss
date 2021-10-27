@@ -1,0 +1,48 @@
+.typo {
+    margin: 0;
+
+    &--uppercase {
+        text-transform: uppercase;
+    }
+
+    &--700 {
+        font-weight: 700;
+    }
+
+    &--600 {
+        font-weight: 600;
+    }
+
+    &--500 {
+        font-weight: 500;
+    }
+
+    &--400 {
+        font-weight: 400;
+    }
+
+    &--300 {
+        font-weight: 300;
+    }
+}
+
+.typo--title {
+    font-size: 20px;
+}
+
+.typo--subTitle {
+    color: #686868;
+    font-size: 14px;
+}
+
+.typo--body {
+    font-size: 16px;
+}
+
+.typo--bodySmall {
+    font-size: 14px;
+}
+
+.typo--label {
+    font-size: 16px;
+}
