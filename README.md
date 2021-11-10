@@ -3,7 +3,13 @@ Styling Choices:
 I used sass/scss because it can be used in the native development for html, css, js and jquery. But I can also used styled-components if I'm building react application.
 
 Resposiveness:
-I develop it mobile first. But as you can see if you look at it in bigger screen the sizes of the input elements became full width. But that's a simple enhancement to make it more fluid. But if there's a design that can be follow for desktop, tablet or mobile size I can make it more responsive.
+N/A
+
+Notes:
+A lot of improvements that can be enhanced in the exam that I submitted. Thank you and have a great day! 
+- Typography for using variables to the colors or creating a Typography component
+- Organizing the components to make it more smooth and run much faster such as lazy load for the listing and cleaning the code splitting
+- Common components for small elements
 
 # NOTE
 To run the application follow the scripts but ensure that you have npm/yarn in your unit.
