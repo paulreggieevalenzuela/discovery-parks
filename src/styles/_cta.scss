@@ -1,5 +1,71 @@
 .cta {
-    border-radius: 20px !important; // To override the border-radius of bootstrap style
-    margin-top: 40px;
-    padding: 12px 24px !important;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+
+    &--underline {
+        text-decoration: underline;
+    }
+
+    span {
+        font-weight: 300;
+        font-size: 14px;
+        margin-left: 5px;
+        margin-top: 1px;
+        letter-spacing: 0.2px;
+    }
+}
+
+.back-to-page {
+    margin-bottom: 30px;
+    color: #afafaf;
+}
+
+.remove-item {
+    color: #c53333;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.next-step {
+    background-color: #1c47be;
+    border-radius: 20px;
+    color: #fff;
+    border: 0;
+    padding: 8px 12px;
+    text-align: center;
+    justify-content: center;
+    margin: 25px 0 15px;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        background-color: #fff;
+        border: 1px solid #1c47be;
+        color: #1c47be;
+    }
+}
+
+.cta__add-stop {
+    color: #1c47be;
+    border-radius: 20px;
+    border: 1px solid #1c47be;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        background-color: #1c47be;
+        color: #fff;
+    }
+}
+
+.cta-reset {
+    color: #000;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    margin-top: 15px;
+    font-size: 14px;
 }

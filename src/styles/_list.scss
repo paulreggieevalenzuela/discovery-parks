@@ -1,0 +1,22 @@
+.list {
+    margin-right: 50px;
+}
+
+.list-item__hotel-information {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.list-item {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #d5d5d5;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    align-items: flex-end;
+
+    &:last-child {
+        border-bottom: 0;
+    }
+}

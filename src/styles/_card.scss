@@ -1,0 +1,50 @@
+.card {
+    border-radius: 10px;
+    flex-direction: row;
+    border: 0;
+    box-shadow: 4px 6px 12px -9px rgba(0, 0, 0, 0.54);
+}
+
+.card__room-information {
+    height: 160px;
+
+    img {
+        height: 100%;
+    }
+}
+
+.card__price {
+    font-size: 26px;
+
+    span {
+        font-size: 10px;
+        margin-top: 5px;
+        margin-right: 5px;
+    }
+}
+
+.card__date-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 210px;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    flex: 1;
+}
+
+.card__guest-info {
+    display: flex;
+    align-items: flex-end;
+    padding: 10px 15px;
+}
+
+.reservation__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info__title {
+    color: #969696;
+}

@@ -1,8 +1,28 @@
 .typo {
     margin: 0;
 
+    &--italic {
+        font-style: italic;
+    }
+
     &--uppercase {
         text-transform: uppercase;
+    }
+
+    &--lowercase {
+        text-transform: lowercase;
+    }
+
+    &--capitalize {
+        text-transform: capitalize;
+    }
+
+    &--900 {
+        font-weight: 900;
+    }
+
+    &--800 {
+        font-weight: 800;
     }
 
     &--700 {
@@ -26,23 +46,64 @@
     }
 }
 
+.typo--large {
+    font-size: 28px;
+    line-height: 26px;
+}
+
+.typo--medium {
+    font-size: 24px;
+    line-height: 22px;
+}
+
 .typo--title {
     font-size: 20px;
+    line-height: 26px;
 }
 
 .typo--subTitle {
     color: #686868;
     font-size: 14px;
+    line-height: 18px;
+}
+
+.typo--headline {
+    color: #1c47be;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.typo--subHeadline {
+    color: #474747;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.3px;
 }
 
 .typo--body {
     font-size: 16px;
+    line-height: 18px;
 }
 
 .typo--bodySmall {
     font-size: 14px;
+    line-height: 16px;
 }
 
 .typo--label {
     font-size: 16px;
+}
+
+.typo--caption {
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    line-height: 14px;
+}
+
+.typo--smallCaption {
+    color: #72c980;
+    font-size: 10px;
+    letter-spacing: 0.3px;
+    line-height: 12px;
 }

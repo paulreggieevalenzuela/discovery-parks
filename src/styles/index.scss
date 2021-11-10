@@ -1,7 +1,12 @@
-@import 'common';
 @import 'typography';
-@import 'form';
+@import 'common';
+@import 'card';
+@import 'mixins';
+@import 'badge';
+@import 'flex';
 @import 'cta';
-@import 'breadcrumb';
-@import 'contact-details';
 @import 'nav';
+@import 'list';
+
+// views
+@import 'reservation-view';
